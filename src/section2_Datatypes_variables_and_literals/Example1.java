@@ -1,40 +1,41 @@
-// Primitive Datatypes in Java
 package section2_Datatypes_variables_and_literals;
 
 public class Example1 {
-    public static void main(String[] args) {
-        //Variable Declaration
-        byte lbNum1;
-        short lsNum1;
-        int lnNum1;
-        long llNum1;
+    public static void main(String[] args){
+        System.out.println(Byte.MAX_VALUE);
+        System.out.println(Byte.MIN_VALUE);
+        System.out.println(Byte.BYTES);
+        System.out.println(Byte.SIZE);
 
-        float lfNum1;
-        double ldNum1;
+        System.out.println(Short.MAX_VALUE);
+        System.out.println(Short.MIN_VALUE);
+        System.out.println(Short.BYTES);
+        System.out.println(Short.SIZE);
 
-        char cGrade;
-        String sName;
+        System.out.println(Integer.MAX_VALUE);
+        System.out.println(Integer.MIN_VALUE);
+        System.out.println(Integer.BYTES);
+        System.out.println(Integer.SIZE);
 
-        //Variable Assignment
-        lbNum1 = 120;
-        lsNum1 = 32000;
-        lnNum1 = 330000;
-        llNum1 = 20000000000L;
+        System.out.println(Long.MAX_VALUE);
+        System.out.println(Long.MIN_VALUE);
+        System.out.println(Long.BYTES);
+        System.out.println(Long.SIZE);
 
-        lfNum1 = 12.1212121212121212F;
-        ldNum1 = 12.121212121212121;
+        System.out.println(Float.MAX_VALUE);
+        System.out.println(Float.MIN_VALUE);
+        System.out.println(Float.BYTES);
+        System.out.println(Float.SIZE);
 
-        cGrade = 'A';
-        sName = "Java Full stack means S2P";
+        System.out.println(Double.MAX_VALUE);
+        System.out.println(Double.MIN_VALUE);
+        System.out.println(Double.BYTES);
+        System.out.println(Double.SIZE);
 
-        //Printing All Variables
-        System.out.println(lbNum1);
-        System.out.println(lsNum1);
-        System.out.println(lnNum1);
-        System.out.println(llNum1);
-        System.out.println(lfNum1);
-        System.out.println(ldNum1);
-        System.out.println(cGrade);
-        System.out.println(sName);
+        System.out.println(Character.MAX_VALUE);
+        System.out.println(Character.MIN_VALUE);
+        System.out.println(Character.BYTES);
+        System.out.println(Character.SIZE);
+
     }
 }
